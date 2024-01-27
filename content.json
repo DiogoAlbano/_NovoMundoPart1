@@ -1,0 +1,12 @@
+{
+  "Format": "1.29.3",
+  //"CustomLocations": [{}],
+  //"DynamicTokens": [{}],
+  "Changes": [
+    {
+      "LogName": "Include_Data",
+      "Action": "Include",
+      "FromFile": "assets/maps/_00.json"
+    }
+  ]
+}
