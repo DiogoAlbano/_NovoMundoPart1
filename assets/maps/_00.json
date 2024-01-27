@@ -7,18 +7,6 @@
       "FromFile": "assets/maps/_00_AdventureGuild.tmx"
     },
     {
-      "Logname": "Map_Properties",
-      "Action": "EditMap",
-      "Target": "Maps/AdventureGuild",
-      "MapProperties": {
-        "AmbientLight": "255 255 255",
-        "DayTiles": null,
-        "Music": "MarlonsTheme",
-        "NightTiles": null,
-        "Warp": "6 30 Mountain 76 9"
-      }
-    },
-    {
       "LogName": "Map_Night_Switch",
       "SetProperties": {
         "CurrentTime": "{{Time}}"
@@ -28,9 +16,21 @@
       "FromFile": "assets/maps/_00_AdventureGuild_night.tmx",
       "When": {
         "Time": "{{Range: 2000, 2600}}"
-
       },
       "Update": "OnTimeChange"
+    },
+    {
+      "Logname": "Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/AdventureGuild",
+      "MapProperties": {
+        "AmbientLight": "255 255 255",
+        "DayTiles": null,
+        "Doors": "2 12 1 120 18 15 1 120 23 21 1 120",
+        "Music": "MarlonsTheme",
+        "NightTiles": null,
+        "Warp": "6 30 Mountain 76 9"
+      }
     }
   ]
 }
