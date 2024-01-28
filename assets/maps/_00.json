@@ -1,13 +1,13 @@
 {
   "Changes": [
     {
-      "LogName": "Map_Switch",
+      "LogName": "Map_Switch_1",
       "Action": "EditMap",
       "Target": "Maps/AdventureGuild",
       "FromFile": "assets/maps/_00_AdventureGuild.tmx"
     },
     {
-      "LogName": "Map_Night_Switch",
+      "LogName": "Map_Night_Switch_1",
       "SetProperties": {
         "CurrentTime": "{{Time}}"
       },
@@ -20,7 +20,7 @@
       "Update": "OnTimeChange"
     },
     {
-      "Logname": "Map_Properties",
+      "Logname": "Map_Properties_1",
       "Action": "EditMap",
       "Target": "Maps/AdventureGuild",
       "MapProperties": {
@@ -30,6 +30,49 @@
         "Music": "MarlonsTheme",
         "NightTiles": null,
         "Warp": "6 30 Mountain 76 9"
+      }
+    },
+    {
+      "Logname": "Map_Strings_1",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "Map00AdventureGuild00": "{{i18n: Map00AdventureGuild00}}",
+        "Map00AdventureGuild01": "{{i18n: Map00AdventureGuild01}}",
+        "Map00AdventureGuild02": "{{i18n: Map00AdventureGuild02}}",
+        "Map00AdventureGuild03": "{{i18n: Map00AdventureGuild03}}",
+        "Map00AdventureGuild04": "{{i18n: Map00AdventureGuild04}}",
+        "Map00AdventureGuild05": "{{i18n: Map00AdventureGuild05}}",
+        "Map00AdventureGuild06": "{{i18n: Map00AdventureGuild06}}",
+        "Map00AdventureGuild07": "{{i18n: Map00AdventureGuild07}}",
+        "Map00AdventureGuild08": "{{i18n: Map00AdventureGuild08}}",
+        "Map00AdventureGuild09": "{{i18n: Map00AdventureGuild09}}",
+        "Map00AdventureGuild10": "{{i18n: Map00AdventureGuild10}}",
+        "Map00AdventureGuild11": "{{i18n: Map00AdventureGuild11}}",
+        "Map00AdventureGuild12": "{{i18n: Map00AdventureGuild12}}",
+        "Map00AdventureGuild13": "{{i18n: Map00AdventureGuild13}}",
+        "Map00AdventureGuild14": "{{i18n: Map00AdventureGuild14}}",
+        "Map00AdventureGuild15": "{{i18n: Map00AdventureGuild15}}"
+      }
+    },
+    {
+      "Logname": "Map_Tile_Properties_1",
+      "Action": "EditMap",
+      "Target": "Maps/AdventureGuild",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 2,
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message Map00AdventureGuild02"
+          }
+        }
+      ],
+      "When": {
+        "HasFlag | contains = 00AdventureGuildAllowEntry": false
       }
     }
   ]
