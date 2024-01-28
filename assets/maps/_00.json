@@ -63,7 +63,7 @@
         {
           "Position": {
             "X": 2,
-            "Y": 12
+            "Y": 4
           },
           "Layer": "Buildings",
           "SetProperties": {
@@ -73,6 +73,26 @@
       ],
       "When": {
         "HasFlag | contains = 00AdventureGuildAllowEntry": false
+      }
+    },
+    {
+      "Logname": "Map_Tile_Properties_2",
+      "Action": "EditMap",
+      "Target": "Maps/AdventureGuild",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 2,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "scWarp_Mountain_31_20_stairsdown_true"
+          }
+        }
+      ],
+      "When": {
+        "HasFlag | contains = 00AdventureGuildAllowEntry": true
       }
     }
   ]

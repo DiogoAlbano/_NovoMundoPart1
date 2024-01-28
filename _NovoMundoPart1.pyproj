@@ -25,6 +25,7 @@
     <Content Include="assets\maps\_00.json" />
     <Content Include="assets\maps\_00_AdventureGuild.tmx" />
     <Content Include="assets\maps\_00_AdventureGuild_night.tmx" />
+    <Content Include="assets\maps\_00_AdventureGuild_VaultRoom.tmx" />
     <Content Include="content.json" />
     <Content Include="i18n\default.json" />
     <Content Include="manifest.json" />

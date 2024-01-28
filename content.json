@@ -1,6 +1,12 @@
 {
   "Format": "1.29.3",
-  //"CustomLocations": [{}],
+  "CustomLocations": [
+    {
+      "LogName": "Add_VaultRoom",
+      "Name": "Custom_NovoMundo_VaultRoom",
+      "FromMapFile": "assets/maps/_00_AdventureGuild_VaultRoom.tmx"
+    }
+  ],
   //"DynamicTokens": [{}],
   "Changes": [
     {

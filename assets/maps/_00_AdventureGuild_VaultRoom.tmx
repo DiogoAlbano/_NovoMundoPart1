@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="76">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="73">
  <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>
   <tile id="581">
@@ -523,7 +523,7 @@
  <objectgroup id="5" name="Buildings">
   <object id="2" name="TileData" x="64" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="scAdventureGuildMenu_14_22"/>
+    <property name="Action" value="scAdventureMenu"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="128" y="160" width="16" height="16">
@@ -574,6 +574,11 @@
   <object id="13" name="TileData" x="336" y="240" width="16" height="16">
    <properties>
     <property name="Action" value="Message Map00AdventureGuild00"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="scWarp_Mountain_31_20_stairsdown_true"/>
    </properties>
   </object>
   <object id="15" name="TileData" x="416" y="240" width="16" height="16">
@@ -849,11 +854,6 @@
   <object id="72" name="TileData" x="224" y="128" width="16" height="16">
    <properties>
     <property name="NPCPassable" value="T"/>
-   </properties>
-  </object>
-  <object id="75" name="TileData" x="32" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Door"/>
    </properties>
   </object>
  </objectgroup>
