@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="76">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="80">
  <tileset firstgid="1" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>
   <tile id="581">
@@ -523,27 +523,12 @@
  <objectgroup id="5" name="Buildings">
   <object id="2" name="TileData" x="64" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="scAdventureGuildMenu_14_22"/>
+    <property name="Action" value="scAdventureGuildMenu 14 22"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="128" y="160" width="16" height="16">
    <properties>
     <property name="Action" value="showMonsterKillList"/>
-   </properties>
-  </object>
-  <object id="4" name="TileData" x="80" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="scAdventureMenu"/>
-   </properties>
-  </object>
-  <object id="5" name="TileData" x="96" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="scAdventureMenu"/>
-   </properties>
-  </object>
-  <object id="6" name="TileData" x="96" y="176" width="16" height="16">
-   <properties>
-    <property name="Action" value="scAdventureMenu"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="288" y="240" width="16" height="16">
@@ -854,6 +839,21 @@
   <object id="75" name="TileData" x="32" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Door"/>
+   </properties>
+  </object>
+  <object id="77" name="TileData" x="80" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="scAdventureGuildMenu 14 22"/>
+   </properties>
+  </object>
+  <object id="78" name="TileData" x="96" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="scAdventureGuildMenu 14 22"/>
+   </properties>
+  </object>
+  <object id="79" name="TileData" x="96" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="scAdventureGuildMenu 14 22"/>
    </properties>
   </object>
  </objectgroup>

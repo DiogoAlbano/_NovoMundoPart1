@@ -3,7 +3,7 @@
   "CustomLocations": [
     {
       "LogName": "Add_VaultRoom",
-      "Name": "Custom_NovoMundo_VaultRoom",
+      "Name": "Custom_NovoMundoVaultRoom",
       "FromMapFile": "assets/maps/_00_AdventureGuild_VaultRoom.tmx"
     }
   ],

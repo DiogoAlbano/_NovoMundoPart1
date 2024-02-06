@@ -87,12 +87,20 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "scWarp_Mountain_31_20_stairsdown_true"
+            "Action": "scWarp Custom_NovoMundoVaultRoom 17 4 stairsdown true"
           }
         }
       ],
       "When": {
         "HasFlag | contains = 00AdventureGuildAllowEntry": true
+      }
+    },
+    {
+      "Logname": "Map_Properties_2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_NovoMundoVaultRoom",
+      "MapProperties": {
+        "AmbientLight": "255 255 255"
       }
     }
   ]
